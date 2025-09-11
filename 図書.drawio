@@ -1,0 +1,214 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
+  <diagram name="ページ1" id="o6TxsCEPyFdzUdszx9jG">
+    <mxGraphModel dx="2535" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-1" value="乗り物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-2" value="車" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-3" value="船" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-4" value="飛行機" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293.5" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.442;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-2" target="Zosj_QKLrO_pLoMZ6Kev-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="190" as="sourcePoint" />
+            <mxPoint x="130" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-3" target="Zosj_QKLrO_pLoMZ6Kev-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="93" y="210" as="sourcePoint" />
+            <mxPoint x="200" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-4" target="Zosj_QKLrO_pLoMZ6Kev-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="210" as="sourcePoint" />
+            <mxPoint x="230" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-10" value="車" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-11" value="エンジン" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-12" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-11" target="Zosj_QKLrO_pLoMZ6Kev-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="510" y="190" as="sourcePoint" />
+            <mxPoint x="670" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-13" value="ボディ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-14" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-13" target="Zosj_QKLrO_pLoMZ6Kev-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="540" y="150" as="sourcePoint" />
+            <mxPoint x="620" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-15" value="ハンドル" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-16" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-15" target="Zosj_QKLrO_pLoMZ6Kev-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="600" y="260" as="sourcePoint" />
+            <mxPoint x="680" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-17" value="ライト" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-18" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-17" target="Zosj_QKLrO_pLoMZ6Kev-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="sourcePoint" />
+            <mxPoint x="710" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-20" value="汎化 : is a 関係" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-21" value="集約 : has a&amp;nbsp; 関係" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-22" value="図書館" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-23" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-24" target="Zosj_QKLrO_pLoMZ6Kev-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="510" as="sourcePoint" />
+            <mxPoint x="195" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-24" value="図書カード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-25" value="氏名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-27" value="住所" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-28" value="電話番号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-29" value="電子メール・アドレス" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="810" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-32" value="利用者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-33" value="" style="endArrow=none;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-32" target="Zosj_QKLrO_pLoMZ6Kev-22">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="425" y="505" as="sourcePoint" />
+            <mxPoint x="390" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-34" value="ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-35" value="図書" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-36" value="" style="endArrow=none;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-32" target="Zosj_QKLrO_pLoMZ6Kev-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="700" as="sourcePoint" />
+            <mxPoint x="245" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-37" value="検索" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-38" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-34" target="Zosj_QKLrO_pLoMZ6Kev-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="650" as="sourcePoint" />
+            <mxPoint x="260" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-39" value="貸し出し予約" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-40" value="貸し出し期限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-44" value="著者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="555" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-45" value="書名" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="555" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-46" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-45" target="Zosj_QKLrO_pLoMZ6Kev-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="760" as="sourcePoint" />
+            <mxPoint x="210" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-47" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-44" target="Zosj_QKLrO_pLoMZ6Kev-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="760" as="sourcePoint" />
+            <mxPoint x="310" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-48" value="パスワード" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="810" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-49" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-48" target="Zosj_QKLrO_pLoMZ6Kev-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="840" as="sourcePoint" />
+            <mxPoint x="70" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-50" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-25" target="Zosj_QKLrO_pLoMZ6Kev-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="40" y="880" as="sourcePoint" />
+            <mxPoint y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-51" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-27" target="Zosj_QKLrO_pLoMZ6Kev-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-20" y="840" as="sourcePoint" />
+            <mxPoint x="30" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-52" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-28" target="Zosj_QKLrO_pLoMZ6Kev-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-50" y="760" as="sourcePoint" />
+            <mxPoint x="90" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-53" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-29" target="Zosj_QKLrO_pLoMZ6Kev-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="840" as="sourcePoint" />
+            <mxPoint x="55" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-54" value="何処の棚にあるか" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="540" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-55" value="貸し出し中か" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="480" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-56" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-55" target="Zosj_QKLrO_pLoMZ6Kev-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="465" y="695" as="sourcePoint" />
+            <mxPoint x="420" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zosj_QKLrO_pLoMZ6Kev-57" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zosj_QKLrO_pLoMZ6Kev-54" target="Zosj_QKLrO_pLoMZ6Kev-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="465" y="665" as="sourcePoint" />
+            <mxPoint x="420" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
