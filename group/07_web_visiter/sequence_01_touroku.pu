@@ -1,0 +1,35 @@
+@startuml Web論文システム-入学手続シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as A
+boundary 新規登録画面 as B1
+control 新規登録 as B2
+entity 訪問者 as B3
+boundary 登録完了画面 as C1
+boundary エラーメッセージ付き新規登録画面 as C2
+
+A -> B1: ユーザー情報入力()
+activate A
+activate B1
+
+B1 -> B2: 起動()
+activate B2
+
+B2 -> B3: 新規登録()
+activate B3
+
+B3 --> B2
+deactivate B3
+
+B2 -> C1: 表示()
+activate C1
+deactivate C1
+
+B2 -> C2: エラー発生時：表示()
+activate C2
+
+
+@enduml
