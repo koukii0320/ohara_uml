@@ -1,0 +1,29 @@
+@startuml Web訪問者システム-変更機能シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor ユーザー as A
+boundary 訪問者システムメニュー as B1
+boundary 訪問者情報変更画面表示 as B2
+boundary 訪問者 as B3
+control 訪問者情報変更画面 as C1
+
+A -> B1: 自分の情報の変更をクリック()
+activate A
+activate B1
+
+B1 -> B2: 起動()
+activate B2
+
+B2 -> B3: 訪問者更新情報取得()
+activate B3
+
+B3 --> B2
+deactivate B3
+
+B2 -> C1:   表示()
+activate C1
+
+@enduml
