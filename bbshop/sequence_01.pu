@@ -1,0 +1,24 @@
+@startuml カートに追加シーケンス図
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+
+actor 顧客 as A
+boundary 商品詳細画面 as B1
+control カートに追加 as B2
+control 在庫不足画面 as C2
+entity カート画面 as C1
+
+A -> B1: 
+B1 -> B2: 「カートに追加」ボタン押下
+B2 -> C1: カート更新
+C1 --> A: カート画面表示
+
+opt 在庫不足の場合
+    B2 -> C2: 在庫不足エラー通知
+    C2 -> A: エラーメッセージ表示
+    A -> B1: 再入力・再送信
+end
+
+@enduml

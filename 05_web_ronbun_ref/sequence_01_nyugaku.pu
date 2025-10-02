@@ -4,13 +4,13 @@ skinparam boundaryBackgroundColor #D5E8D4
 skinparam controlBackgroundColor  #F8CECC
 skinparam entityBackgroundColor   #DAE8FC
 
-actor 学生 as A
-boundary メニュー画面 as B1
-boundary 入学手続画面 as B2
-boundary 予約完了画面 as B3
-control 入力検証 as C1
-control 学生情報登録 as C2
-entity 学生情報 as E
+
+actor 顧客 as A
+boundary 購入手続き画面 as B1
+boundary 在庫切れ画面 as B2
+control 決済完了 as C1
+control 表示 as C2
+boundary 注文完了画面 as E
 
 A -> B1: 入学手続メニューを選択()
 activate B1
