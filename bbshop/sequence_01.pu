@@ -5,20 +5,45 @@ skinparam controlBackgroundColor  #F8CECC
 skinparam entityBackgroundColor   #DAE8FC
 
 actor 顧客 as A
-boundary 商品詳細画面 as B1
-control カートに追加 as B2
-control 在庫不足画面 as C2
-entity カート画面 as C1
+boundary "goodsDetail.jsp" as B1 
+control "addCart.jsp" as C
+entity "Goods.java" as S
+entity "Cart.java" as K
+boundary "addCartComplete.jsp" as M
+boundary "outOfStock.jsp" as E
+boundary "login.jsp" as L
 
-A -> B1: 
-B1 -> B2: 「カートに追加」ボタン押下
-B2 -> C1: カート更新
-C1 --> A: カート画面表示
+A -> B1: 「カートに追加」押下
+activate B1
 
-opt 在庫不足の場合
-    B2 -> C2: 在庫不足エラー通知
-    C2 -> A: エラーメッセージ表示
-    A -> B1: 再入力・再送信
+B1 -> C: addCart()
+activate C
+
+C -> S: getGoodsDetail()
+activate S
+S --> C: 在庫可否()
+deactivate S
+
+C -> K: addCartData()
+activate K
+K --> C: 追加成功
+deactivate K
+
+C -> M: 表示()
+
+alt 在庫不足
+    C -> E: 在庫不足エラー通知()
+    activate E
+    E --> B1: 表示()
+    deactivate E
+end
+
+alt 未ログイン
+    C -> L: login()
+    note over L
+        以下、ログインの
+        ユースケースへ
+    end note
 end
 
 @enduml

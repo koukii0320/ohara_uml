@@ -1,0 +1,66 @@
+@startuml カートに追加する
+hide footbox
+skinparam boundaryBackgroundColor #D5E8D4
+skinparam controlBackgroundColor  #F8CECC
+skinparam entityBackgroundColor   #DAE8FC
+ 
+actor ユーザー as user
+boundary 商品詳細画面 as product_disp
+control カートに追加 as add_cart
+entity 顧客情報 as user_db
+control ログイン as show_login
+entity 商品情報 as product_db
+control エラー通知 as show_error
+entity カート情報 as cart_db
+boundary カート追加完了画面 as complete_disp
+ 
+user -> product_disp:「カートに追加」\nボタンをクリック
+activate product_disp
+product_disp -> add_cart: カート追加\nリクエスト()
+ 
+' カート追加開始
+activate add_cart
+ 
+' ログイン確認
+add_cart -> user_db:ログイン情報取得()
+activate user_db
+add_cart <-- user_db:ログイン情報
+deactivate user_db
+ 
+' エラーケース
+alt 未ログイン
+    add_cart -> show_login: ログイン画面表示()
+    activate show_login
+    deactivate show_login
+    note over show_login
+        以下、ログインの
+        ユースケースへ
+    end note
+end
+ 
+' 在庫確認
+add_cart -> product_db: 在庫確認()
+activate product_db
+add_cart <-- product_db: 在庫情報
+deactivate product_db
+ 
+' エラーケース
+alt 在庫不足
+    add_cart -> show_error: エラーメッセージ表示()
+    activate show_error
+    show_error --> product_disp: 表示()
+    deactivate show_error
+end
+ 
+' カート追加
+add_cart -> cart_db: カート情報に商品を追加()
+activate cart_db
+cart_db --> add_cart:
+deactivate cart_db
+add_cart -> complete_disp: 表示()
+deactivate product_disp
+activate complete_disp
+deactivate complete_disp
+deactivate add_cart
+ 
+@enduml
